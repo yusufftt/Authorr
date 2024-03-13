@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+  <meta charset="UTF-8">
+  <title>Register Page</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
-        <h2>Register</h2>
-        <form action="#" method="post">
-            <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username" required><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password" required><br>
-            <label for="confirm_password">Confirm Password:</label><br>
-            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
-            <input type="submit" value="Register">
-        </form>
-    </div>
+
+<!-- Halaman Register -->
+<div class="register-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="login.html">Sign In</a></p>
+    </form>
+  </div>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="./script.js"></script>
+
 </body>
 </html>
